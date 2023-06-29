@@ -6,7 +6,7 @@
         {
           "id": 1,
           "src_img": "Hair_Loss_1.svg",
-          "label": null 
+          "label": null
         },
         {
           "id": 2,
@@ -16,7 +16,7 @@
         {
           "id": 3,
           "src_img": "Hair_Loss_3.svg",
-          "label": null 
+          "label": null
         },
         {
           "id": 4,
@@ -26,62 +26,12 @@
       ]
     },
     {
-      "label": "¿Se ha sometido alguna vez a un trasplante de pelo?",
-      "options": [
-        {
-          "id": 11,
-          "src_img": "Yes.svg",
-          "label": "Si" 
-        },
-        {
-          "id": 12,
-          "src_img": "No.svg",
-          "label": "No"
-        }
-      ]
-    },
-    {
-      "label": "¿Otras personas de su familia sufren de pérdida de cabello?",
-      "options": [
-        {
-          "id": 21,
-          "src_img": "Yes.svg",
-          "label": "Si" 
-        },
-        {
-          "id": 22,
-          "src_img": "No.svg",
-          "label": "No"
-        }
-      ]
-    },
-    {
-      "label": "¿Hace cuántos años  que comenzó su pérdida de cabello?",
-      "options": [
-        {
-          "id": 31,
-          "src_img": "Less_than_5.svg",
-          "label": "Menos de 5" 
-        },
-        {
-          "id": 32,
-          "src_img": "5-10.svg",
-          "label": "5-10"
-        },
-        {
-          "id": 33,
-          "src_img": "More_than_10.svg",
-          "label": "Más de 10" 
-        }
-      ]
-    },
-    {
       "label": "¿Cual es tu edad?",
       "options": [
         {
           "id": 41,
           "src_img": "Younger_than_24.svg",
-          "label": "Menor de 24" 
+          "label": "Menor de 24"
         },
         {
           "id": 42,
@@ -91,47 +41,32 @@
         {
           "id": 43,
           "src_img": "30-45.svg",
-          "label": "30-45" 
+          "label": "30-45"
         },
         {
           "id": 44,
           "src_img": "Older_than_45.svg",
-          "label": "Mayor de 45" 
+          "label": "Mayor de 45"
         }
       ]
     },
     {
-      "label": "¿Está tratando actualmente su pérdida de cabello con finasteride o minoxidil?",
+      "label": "¿Hace cuántos años  que comenzó su pérdida de cabello?",
       "options": [
         {
-          "id": 51,
-          "src_img": "Yes.svg",
-          "label": "Si" 
+          "id": 31,
+          "src_img": "Less_than_5.svg",
+          "label": "Menos de 5"
         },
         {
-          "id": 52,
-          "src_img": "No.svg",
-          "label": "No"
-        }
-      ]
-    },
-    {
-      "label": "¿Cuándo quiere su trasplante capilar?",
-      "options": [
-        {
-          "id": 61,
-          "src_img": "As_soon_as_possible.svg",
-          "label": "Lo más pronto posible" 
+          "id": 32,
+          "src_img": "5-10.svg",
+          "label": "5-10"
         },
         {
-          "id": 62,
-          "src_img": "In_the_next_six_month.svg",
-          "label": "En los siguiente 6 meses"
-        },
-        {
-          "id": 63,
-          "src_img": "I_just_want_to_inform_myself.svg",
-          "label": "Sólo quiero informarme"
+          "id": 33,
+          "src_img": "More_than_10.svg",
+          "label": "Más de 10"
         }
       ]
     },
@@ -141,7 +76,7 @@
         {
           "id": 71,
           "src_img": "Quality_&_Service.svg",
-          "label": "Calidad y servicio" 
+          "label": "Calidad y servicio"
         },
         {
           "id": 72,
@@ -152,6 +87,14 @@
           "id": 73,
           "src_img": "Distance_to_the_Doctor.svg",
           "label": "Distancia del médico"
+        },
+        {
+          "id": 74,
+          "input": {
+            "label": "Otro",
+            "src_img": "otro.png",
+            "placeholder": "Describe"
+          }
         }
       ]
     },
@@ -161,7 +104,7 @@
         {
           "id": 81,
           "src_img": "Up_to_20_km.svg",
-          "label": "Hasta 20Km" 
+          "label": "Hasta 20Km"
         },
         {
           "id": 82,
@@ -181,7 +124,7 @@
         {
           "id": 91,
           "src_img": "Yes.svg",
-          "label": "Si" 
+          "label": "Si"
         },
         {
           "id": 92,
@@ -200,8 +143,11 @@
       "options": [
         {
           "id": 101,
-          "src_img": "Spain.svg",
-          "label": "España" 
+          "input": {
+            "src_img": "Spain.svg",
+            "label": "España",
+            "placeholder": "Introduce tu provincia"
+          }
         },
         {
           "id": 102,
@@ -221,24 +167,74 @@
       ]
     },
     {
-      "label": "¿Por qué medio quieres que te contactemos?",
+      "label": "¿Se ha sometido alguna vez a un trasplante de pelo?",
       "options": [
         {
-          "id": 111,
-          "src_img": "whatsapp.svg",
-          "label": "WhatsApp" 
+          "id": 11,
+          "src_img": "Yes.svg",
+          "label": "Si"
         },
         {
-          "id": 112,
-          "src_img": "mail.svg",
-          "label": "Mail"
+          "id": 12,
+          "src_img": "No.svg",
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "label": "¿Está tratando actualmente su pérdida de cabello con finasteride o minoxidil?",
+      "options": [
+        {
+          "id": 51,
+          "src_img": "Yes.svg",
+          "label": "Si"
         },
         {
-          "id": 113,
-          "src_img": "Phone.svg",
-          "label": "Llamada telefónica"
+          "id": 52,
+          "src_img": "No.svg",
+          "label": "No"
+        }
+      ]
+    },
+    {
+      "label": "¿Cuándo quiere su trasplante capilar?",
+      "options": [
+        {
+          "id": 61,
+          "src_img": "As_soon_as_possible.svg",
+          "label": "Lo más pronto posible"
+        },
+        {
+          "id": 62,
+          "src_img": "In_the_next_six_month.svg",
+          "label": "En los siguiente 6 meses"
+        },
+        {
+          "id": 63,
+          "src_img": "I_just_want_to_inform_myself.svg",
+          "label": "Sólo quiero informarme"
         }
       ]
     }
-  ]
+  ],
+  "contact": {
+    "label": "¿Por qué medio quieres que te contactemos?",
+    "options": [
+      {
+        "id": 111,
+        "src_img": "whatsapp.svg",
+        "label": "WhatsApp"
+      },
+      {
+        "id": 112,
+        "src_img": "mail.svg",
+        "label": "Mail"
+      },
+      {
+        "id": 113,
+        "src_img": "Phone.svg",
+        "label": "Llamada telefónica"
+      }
+    ]
+  }
 }

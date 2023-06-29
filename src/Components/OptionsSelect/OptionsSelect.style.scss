@@ -4,7 +4,7 @@
   justify-content: space-between;
   gap: 15px;
   flex-wrap: wrap;
-  margin: 60px auto 0;
+  margin: 40px auto 0;
   opacity: .3;
 
   @media (min-width: 767px) {
@@ -19,15 +19,18 @@
     border-radius: 10px;
     padding: 10px;
     transition: all .5s linear;
-    border: 3px solid transparent; 
+    border: 3px solid transparent;
     gap: 10px;
+
     @media (min-width: 767px) {
       cursor: pointer;
     }
+
     img {
       width: 100%;
       aspect-ratio: 1 / 1;
     }
+
     .option-label {
       text-align: center;
       font-size: 14px;
@@ -36,10 +39,12 @@
       font-weight: 600;
     }
   }
+
   .inline {
     width: 100%;
     height: 80px;
     justify-content: space-between;
+
     img {
       width: 60px;
       height: 60px;
@@ -47,19 +52,57 @@
 
     @media (min-width: 767px) {
       height: 90px;
+
       img {
         width: 70px;
         height: 70px;
       }
     }
+
     .option-label {
       width: 100%;
+    }
+  }
+
+  .content-input-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .input {
+      border: 1px solid rgb(156, 151, 151);
+      border-radius: 5px;
+      padding: 4px 8px;
+      display: block;
+      width: 80%;
+      outline: none;
+      height: fit-content;
+
+      &:focus {
+        border: 1px solid #3E9DD2;
+      }
+    }
+
+    .btn {
+      width: 20%;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+
+      .img-button {
+        width: 100%;
+        object-fit: contain;
+        aspect-ratio: 1 / 1;
+        display: block;
+      }
     }
   }
 
   .square {
     width: 110px;
     height: 110px;
+
     @media (min-width: 767px) {
       width: 150px;
       height: 150px;
@@ -71,7 +114,7 @@
     box-shadow: 0 5px 20px 3px rgb(0 0 0 / 30%)
   }
 
-  
+
   .option:hover {
     border: 3px solid #3E9DD2;
     transform: translateY(-3px);
@@ -84,9 +127,11 @@
 .initial-x {
   transform: translateX(200px);
 }
+
 .back-x {
   transform: translateX(-200px);
 }
+
 .transition-0 {
   transition: all 0s linear;
 }
@@ -99,11 +144,13 @@
   transform: translateX(-200px);
   opacity: 0;
 }
+
 .animate-initial {
-  transform: translateX(0px) ;
+  transform: translateX(0px);
   opacity: 1;
 }
+
 .animate-exit {
-  transform: translateX(-200px) ;
+  transform: translateX(-200px);
   opacity: 0;
 }
